@@ -2,6 +2,7 @@
 using namespace std;
 
 void function();
+
 void secondFunction();
 
 int main() {
