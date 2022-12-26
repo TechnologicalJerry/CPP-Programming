@@ -7,21 +7,17 @@ void secondFunction();
 
 int main() {
 
-    function();
+  function();
 
-    secondFunction();
+  secondFunction();
 
-    cout << "Hello from main()\n";
+  cout << "Hello from main()\n";
 
-    function();
+  function();
 
-    return 0;
+  return 0;
 }
 
-void function() {
-    cout << "Hello from function()" << endl;
-}
+void function() { cout << "Hello from function()" << endl; }
 
-void secondFunction() {
-    cout << "Hello, This is from secondFunction()";
-}
+void secondFunction() { cout << "Hello, This is from secondFunction()"; }
